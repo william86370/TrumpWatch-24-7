@@ -15,6 +15,7 @@
 		846384281E5CBACF00B5A5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846384261E5CBACF00B5A5BC /* LaunchScreen.storyboard */; };
 		846384331E5CBACF00B5A5BC /* TrumpWatch_24_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846384321E5CBACF00B5A5BC /* TrumpWatch_24_7Tests.swift */; };
 		8463843E1E5CBACF00B5A5BC /* TrumpWatch_24_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463843D1E5CBACF00B5A5BC /* TrumpWatch_24_7UITests.swift */; };
+		8463844E1E5CBB0200B5A5BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		846384391E5CBACF00B5A5BC /* TrumpWatch 24-7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrumpWatch 24-7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463843D1E5CBACF00B5A5BC /* TrumpWatch_24_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpWatch_24_7UITests.swift; sourceTree = "<group>"; };
 		8463843F1E5CBACF00B5A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8463844B1E5CBB0200B5A5BC /* TrumpWatch 24-7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TrumpWatch 24-7.entitlements"; sourceTree = "<group>"; };
+		8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8463844E1E5CBB0200B5A5BC /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				846384311E5CBACF00B5A5BC /* TrumpWatch 24-7Tests */,
 				8463843C1E5CBACF00B5A5BC /* TrumpWatch 24-7UITests */,
 				846384191E5CBACF00B5A5BC /* Products */,
+				8463844C1E5CBB0200B5A5BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,7 @@
 		8463841A1E5CBACF00B5A5BC /* TrumpWatch 24-7 */ = {
 			isa = PBXGroup;
 			children = (
+				8463844B1E5CBB0200B5A5BC /* TrumpWatch 24-7.entitlements */,
 				8463841B1E5CBACF00B5A5BC /* AppDelegate.swift */,
 				8463841D1E5CBACF00B5A5BC /* FirstViewController.swift */,
 				8463841F1E5CBACF00B5A5BC /* SecondViewController.swift */,
@@ -126,6 +132,14 @@
 				8463843F1E5CBACF00B5A5BC /* Info.plist */,
 			);
 			path = "TrumpWatch 24-7UITests";
+			sourceTree = "<group>";
+		};
+		8463844C1E5CBB0200B5A5BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +212,17 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2U2K8SJ7Q7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					8463842D1E5CBACF00B5A5BC = {
 						CreatedOnToolsVersion = 8.1;
@@ -419,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TrumpWatch 24-7/TrumpWatch 24-7.entitlements";
 				DEVELOPMENT_TEAM = 2U2K8SJ7Q7;
 				INFOPLIST_FILE = "TrumpWatch 24-7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TrumpWatch 24-7/TrumpWatch 24-7.entitlements";
 				DEVELOPMENT_TEAM = 2U2K8SJ7Q7;
 				INFOPLIST_FILE = "TrumpWatch 24-7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
