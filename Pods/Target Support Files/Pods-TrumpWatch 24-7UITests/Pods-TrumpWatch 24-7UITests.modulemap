@@ -1,0 +1,6 @@
+framework module Pods_TrumpWatch_24_7UITests {
+  umbrella header "Pods-TrumpWatch 24-7UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
