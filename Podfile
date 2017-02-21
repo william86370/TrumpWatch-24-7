@@ -20,7 +20,7 @@ pod 'Firebase/RemoteConfig'
 pod 'Firebase/Storage'
 pod 'Fabric'
 pod 'TwitterKit'
- pod 'FeedKit', '~> 5.0'
+pod 'FeedKit'
 
 
 

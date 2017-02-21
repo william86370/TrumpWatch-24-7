@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840091881E5CD7C2006F3B2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840091871E5CD7C2006F3B2D /* GoogleService-Info.plist */; };
+		8400918A1E5CDB6E006F3B2D /* cnntableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840091891E5CDB6E006F3B2D /* cnntableViewController.swift */; };
 		8463841C1E5CBACF00B5A5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463841B1E5CBACF00B5A5BC /* AppDelegate.swift */; };
 		8463841E1E5CBACF00B5A5BC /* UserTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463841D1E5CBACF00B5A5BC /* UserTimelineViewController.swift */; };
 		846384201E5CBACF00B5A5BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463841F1E5CBACF00B5A5BC /* SecondViewController.swift */; };
@@ -16,6 +18,10 @@
 		846384331E5CBACF00B5A5BC /* TrumpWatch_24_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846384321E5CBACF00B5A5BC /* TrumpWatch_24_7Tests.swift */; };
 		8463843E1E5CBACF00B5A5BC /* TrumpWatch_24_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463843D1E5CBACF00B5A5BC /* TrumpWatch_24_7UITests.swift */; };
 		8463844E1E5CBB0200B5A5BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */; };
+		8498AE5C1E5CEEF60075DB9E /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400918B1E5CDBE7006F3B2D /* FeedKit.framework */; };
+		8498AE5E1E5CEEFC0075DB9E /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8498AE5D1E5CEEFC0075DB9E /* Protobuf.framework */; };
+		8498AE601E5CF0040075DB9E /* xmlparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498AE5F1E5CF0040075DB9E /* xmlparser.swift */; };
+		84D4EBF51E5CF30900593C1D /* webviewcontroler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4EBF41E5CF30900593C1D /* webviewcontroler.swift */; };
 		C886A78A5D93ABE7A30BEC12 /* Pods_TrumpWatch_24_7UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5965125C6A2A5F49D47A9EA /* Pods_TrumpWatch_24_7UITests.framework */; };
 		D05EA19E3ACB6D46DD6F4AE0 /* Pods_TrumpWatch_24_7Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB538EFB71B5C1E557C859E /* Pods_TrumpWatch_24_7Tests.framework */; };
 		F9856C41226CA4BF7B25F56D /* Pods_TrumpWatch_24_7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD09027E38BB45375D0BA4B /* Pods_TrumpWatch_24_7.framework */; };
@@ -44,6 +50,9 @@
 		1F261DDF7EB80BFE0D866FF0 /* Pods-TrumpWatch 24-7UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpWatch 24-7UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpWatch 24-7UITests/Pods-TrumpWatch 24-7UITests.release.xcconfig"; sourceTree = "<group>"; };
 		21C58FAB2FEE8AA720ED3998 /* Pods-TrumpWatch 24-7UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpWatch 24-7UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpWatch 24-7UITests/Pods-TrumpWatch 24-7UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D23B29E93C31F10EE110C34 /* Pods-TrumpWatch 24-7Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpWatch 24-7Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpWatch 24-7Tests/Pods-TrumpWatch 24-7Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		840091871E5CD7C2006F3B2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		840091891E5CDB6E006F3B2D /* cnntableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cnntableViewController.swift; sourceTree = "<group>"; };
+		8400918B1E5CDBE7006F3B2D /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = "../../../Developer/Xcode/DerivedData/TrumpWatch_24-7-gtonhapoxpmgwrbvwufurrsximey/Build/Products/Debug-iphoneos/FeedKit/FeedKit.framework"; sourceTree = "<group>"; };
 		846384181E5CBACF00B5A5BC /* TrumpWatch 24-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrumpWatch 24-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463841B1E5CBACF00B5A5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8463841D1E5CBACF00B5A5BC /* UserTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTimelineViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +69,9 @@
 		8463843F1E5CBACF00B5A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8463844B1E5CBB0200B5A5BC /* TrumpWatch 24-7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TrumpWatch 24-7.entitlements"; sourceTree = "<group>"; };
 		8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8498AE5D1E5CEEFC0075DB9E /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = "Pods/../build/Debug-iphoneos/Protobuf/Protobuf.framework"; sourceTree = "<group>"; };
+		8498AE5F1E5CF0040075DB9E /* xmlparser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xmlparser.swift; sourceTree = "<group>"; };
+		84D4EBF41E5CF30900593C1D /* webviewcontroler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webviewcontroler.swift; sourceTree = "<group>"; };
 		8EB538EFB71B5C1E557C859E /* Pods_TrumpWatch_24_7Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpWatch_24_7Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E897AE092BDBF7CB8C6AC9AC /* Pods-TrumpWatch 24-7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpWatch 24-7.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpWatch 24-7/Pods-TrumpWatch 24-7.debug.xcconfig"; sourceTree = "<group>"; };
 		F5965125C6A2A5F49D47A9EA /* Pods_TrumpWatch_24_7UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpWatch_24_7UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8498AE5E1E5CEEFC0075DB9E /* Protobuf.framework in Frameworks */,
+				8498AE5C1E5CEEF60075DB9E /* FeedKit.framework in Frameworks */,
 				8463844E1E5CBB0200B5A5BC /* AudioToolbox.framework in Frameworks */,
 				F9856C41226CA4BF7B25F56D /* Pods_TrumpWatch_24_7.framework in Frameworks */,
 			);
@@ -125,9 +139,13 @@
 				8463841D1E5CBACF00B5A5BC /* UserTimelineViewController.swift */,
 				8463841F1E5CBACF00B5A5BC /* SecondViewController.swift */,
 				846384211E5CBACF00B5A5BC /* Main.storyboard */,
+				84D4EBF41E5CF30900593C1D /* webviewcontroler.swift */,
+				840091891E5CDB6E006F3B2D /* cnntableViewController.swift */,
+				8498AE5F1E5CF0040075DB9E /* xmlparser.swift */,
 				846384241E5CBACF00B5A5BC /* Assets.xcassets */,
 				846384261E5CBACF00B5A5BC /* LaunchScreen.storyboard */,
 				846384291E5CBACF00B5A5BC /* Info.plist */,
+				840091871E5CD7C2006F3B2D /* GoogleService-Info.plist */,
 			);
 			path = "TrumpWatch 24-7";
 			sourceTree = "<group>";
@@ -153,6 +171,8 @@
 		8463844C1E5CBB0200B5A5BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8498AE5D1E5CEEFC0075DB9E /* Protobuf.framework */,
+				8400918B1E5CDBE7006F3B2D /* FeedKit.framework */,
 				8463844D1E5CBB0200B5A5BC /* AudioToolbox.framework */,
 				FBD09027E38BB45375D0BA4B /* Pods_TrumpWatch_24_7.framework */,
 				8EB538EFB71B5C1E557C859E /* Pods_TrumpWatch_24_7Tests.framework */,
@@ -246,6 +266,9 @@
 		846384101E5CBACF00B5A5BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "A.R.C software and engineering";
@@ -306,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				846384281E5CBACF00B5A5BC /* LaunchScreen.storyboard in Resources */,
+				840091881E5CD7C2006F3B2D /* GoogleService-Info.plist in Resources */,
 				846384251E5CBACF00B5A5BC /* Assets.xcassets in Resources */,
 				846384231E5CBACF00B5A5BC /* Main.storyboard in Resources */,
 			);
@@ -484,7 +508,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				846384201E5CBACF00B5A5BC /* SecondViewController.swift in Sources */,
+				8400918A1E5CDB6E006F3B2D /* cnntableViewController.swift in Sources */,
+				8498AE601E5CF0040075DB9E /* xmlparser.swift in Sources */,
 				8463841C1E5CBACF00B5A5BC /* AppDelegate.swift in Sources */,
+				84D4EBF51E5CF30900593C1D /* webviewcontroler.swift in Sources */,
 				8463841E1E5CBACF00B5A5BC /* UserTimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +667,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = "TrumpWatch 24-7/TrumpWatch 24-7.entitlements";
 				DEVELOPMENT_TEAM = 2U2K8SJ7Q7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Protobuf",
+				);
 				INFOPLIST_FILE = "TrumpWatch 24-7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.TrumpWatch-24-7";
@@ -655,6 +686,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = "TrumpWatch 24-7/TrumpWatch 24-7.entitlements";
 				DEVELOPMENT_TEAM = 2U2K8SJ7Q7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Protobuf",
+				);
 				INFOPLIST_FILE = "TrumpWatch 24-7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.TrumpWatch-24-7";
